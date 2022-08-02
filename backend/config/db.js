@@ -1,0 +1,24 @@
+const mongoose = require("mongoose")
+
+// connection with db
+
+const dbUser = process.env.DB_USER;
+const dbPassword = process.env.DB_PASS;
+
+const conn = async () => {
+    try {
+        const dbConn = await mongoose.connect(
+            `mongodb+srv://${dbUser}:${dbPassword}@cluster0.akdfh.mongodb.net/?retryWrites=true&w=majority`
+        );
+        console.log("db conectado");
+
+        return dbConn;
+
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+conn();
+
+module.exports = conn;
