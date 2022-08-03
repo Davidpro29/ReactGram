@@ -26,5 +26,5 @@ multer
 
 
 Validações no postman:<br>
-![gramValidacaoPostman](https://user-images.githubusercontent.com/89535654/182631925-22a3b143-88db-462e-9a8e-551cfd8e9837.png)
-![gramValidacaoCodigo](https://user-images.githubusercontent.com/89535654/182632034-ec4fe6c8-2fc6-4b61-af7f-bb00251f39d2.png)
+![gramValidacaoCodigo](https://user-images.githubusercontent.com/89535654/182633285-824b443b-4e28-4ae3-9cdf-bb0afa789b51.png)
+![gramValidacaoPostman](https://user-images.githubusercontent.com/89535654/182633330-37f0354c-99bf-40af-81b7-4a233661c69e.png)
