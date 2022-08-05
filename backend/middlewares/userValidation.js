@@ -29,11 +29,24 @@ const loginValidation = () => {
             .isEmail().withMessage("Insira um e-mail válido"),
         body("password")
             .isString().withMessage("A senha é obrigatória")
+    ];
+};
+
+const userUpdateValidation = ()=>{
+    return[
+        body("name")
+            .optional()
+            .isLength({min:3})
+            .withMessage("Nome precisa de no mínimo 3 caracteres"),
+        body("passowrd")
+            .optional()
+            .isLength({min:3})
+            .withMessage("Sua senha precisa de no mínimo 3 caracteres"),
     ]
 }
-
 
 module.exports = {
     userCreateValidation,
     loginValidation,
+    userUpdateValidation,
 } 
