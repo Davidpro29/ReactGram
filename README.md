@@ -35,4 +35,18 @@ PROTEÇÃO DE AUTENTICAÇÃO
 
 - Middlewares de upload de imagens com multer 
 - Ipload de imagens somente em png ou jpg
+- Inserção e exclusão de fotos
+- Funcionalidade de busca de fotos
+- express-validator para validação de usuário e fotos.
 
+Frontend:
+
+react-icons 
+react-router-dom 
+@reduxjs/tookit
+
+O que eu fiz?
+- Página de registro <br>
+![registerInicial](https://user-images.githubusercontent.com/89535654/183975918-c11b5c6b-e173-468e-98c0-3987a75feec9.png)
+
+- Página de login com autênticação
