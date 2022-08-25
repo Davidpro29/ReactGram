@@ -2,14 +2,14 @@ import "./Auth.css";
 
 // Components
 import { Link } from "react-router-dom";
-import Message from  "../../components/Message"
+import Message from "../../components/Message";
 
 // Hooks
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 // Redux
-import { register, reset } from "../../slice/authSlice";
+import { register, reset } from "../../slices/authSlice";
 
 const Register = () => {
   const [name, setName] = useState("");
@@ -72,7 +72,7 @@ const Register = () => {
         />
         {!loading && <input type="submit" value="Cadastrar" />}
         {loading && <input type="submit" disabled value="Aguarde..." />}
-        {error && <Message msg={error} type={"error"} />}
+        {error && <Message msg={error} type="error" />}
       </form>
       <p>
         Já tem conta? <Link to="/login">Clique aqui</Link>
