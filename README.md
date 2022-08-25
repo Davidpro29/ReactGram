@@ -50,3 +50,7 @@ O que eu fiz?
 ![registerInicial](https://user-images.githubusercontent.com/89535654/183975918-c11b5c6b-e173-468e-98c0-3987a75feec9.png)
 
 - Página de login com autênticação
+
+![cadastroGram](https://user-images.githubusercontent.com/89535654/186696429-27c96e05-0cb4-47d2-96ec-64d5b5e5a6d4.jpg)
+![fotoGram](https://user-images.githubusercontent.com/89535654/186696441-9edcb612-b48b-447a-9a44-3323d4806d97.png)
+![loginGram](https://user-images.githubusercontent.com/89535654/186696479-f71fe15f-5fb9-40ca-a807-2c0a4aa803a8.jpg)
